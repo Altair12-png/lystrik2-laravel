@@ -10,8 +10,8 @@
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <div class="card text-center">
+    <div class="col-md-4 mb-4"> {{-- Tambahkan mb-4 untuk margin bawah --}}
+        <div class="card text-center h-100"> {{-- Tambahkan h-100 untuk tinggi yang sama --}}
             <div class="card-body">
                 <h5 class="card-title">Kelola Pelanggan</h5>
                 <p class="card-text">Tambah, lihat, dan ubah data pelanggan.</p>
@@ -19,8 +19,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card text-center">
+    <div class="col-md-4 mb-4"> {{-- Tambahkan mb-4 untuk margin bawah --}}
+        <div class="card text-center h-100"> {{-- Tambahkan h-100 untuk tinggi yang sama --}}
             <div class="card-body">
                 <h5 class="card-title">Kelola Tarif</h5>
                 <p class="card-text">Tambah, lihat, dan ubah data tarif listrik.</p>
@@ -28,8 +28,17 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-         <div class="card text-center">
+    <div class="col-md-4 mb-4"> {{-- Tambahkan mb-4 untuk margin bawah --}}
+        <div class="card text-center h-100"> {{-- Tambahkan h-100 untuk tinggi yang sama --}}
+            <div class="card-body">
+                <h5 class="card-title">Kelola Penggunaan & Tagihan</h5> {{-- <== Kartu baru untuk Penggunaan & Tagihan --}}
+                <p class="card-text">Catat penggunaan meter dan kelola tagihan pelanggan.</p>
+                <a href="{{ route('admin.penggunaan.index') }}" class="btn btn-info">Masuk</a> {{-- Gunakan btn-info untuk warna berbeda --}}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4"> {{-- Tambahkan mb-4 untuk margin bawah --}}
+        <div class="card text-center h-100"> {{-- Tambahkan h-100 untuk tinggi yang sama --}}
             <div class="card-body">
                 <h5 class="card-title">Verifikasi Pembayaran</h5>
                 <p class="card-text">Lihat dan verifikasi pembayaran dari pelanggan.</p>
